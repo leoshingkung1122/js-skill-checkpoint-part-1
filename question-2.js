@@ -16,7 +16,7 @@ inventory.push(newItem);
 
 totalResult = 0;
 
-for (objectInList of inventory){
+for (let objectInList of inventory){
   totalResult += objectInList.price * objectInList.quantity; 
 }
 
